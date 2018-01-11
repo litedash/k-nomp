@@ -113,7 +113,12 @@ are commented in [scripts/blocknotify.c](scripts/blocknotify.c).
 #### 3) Start the portal
 
 ```bash
-npm start
+./k-nomp.sh start
+```
+######  payment error recovery (optional)
+
+```crontab
+*/15 * * * * pathto/k-nomp.sh >> /var/log/k-nomp-restart.log 2>&1
 ```
 
 ###### Optional enhancements for your awesome new mining pool server setup:
