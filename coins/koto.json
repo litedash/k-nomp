@@ -1,6 +1,6 @@
 {
-    "name": "koto",
-    "symbol": "koto",
+    "name": "Koto",
+    "symbol": "KOTO",
     "algorithm": "yescrypt",
     "requireShielding": true,
     "payFoundersReward": false,
@@ -9,5 +9,5 @@
     "foundersRewardAddressChangeInterval": 17709.3125,
     "vFoundersRewardAddress": [
     ],
-    "txfee": 0.0001
+    "txfee": 0.0004
 }
