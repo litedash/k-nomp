@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="jp">
 <head>
     <meta charset="utf-8">
 
@@ -21,7 +21,7 @@
     <script src="/static/main.js"></script>
     <link rel="stylesheet" href="/static/style.css">
 
-    <title>kpool</title>
+    <title>KPOOL - 仮想通貨 KOTO マイニングプール</title>
 
 </head>
 
@@ -30,15 +30,22 @@
 <header>
     <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
 
+
+       <ul>
+         <li><a href="http://koto.mpool.jp/"><img src="/static/koto.png" width="24" height="24">&nbsp; Koto</a></li>
+         <li><a href="http://zny.mpool.jp/"><img src="/static/bitzeny.png" width=24" height="24">&nbsp; Bitzeny</a></li>
+         <li><a href="http://mona.mpool.jp/"><img src="/static/mona.png" width="24" height="24">&nbsp; Monacoin</a></li>
+         <li><a href="http://jp.kpool.jp/"><img src="/static/koto.png" width="24" height="24">&nbsp; Koto(KPOOL)</a></li>
+        </ul>
+    </div>
+
+
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
+
         <a class="pure-menu-heading hot-swapper" href="/"><i class="fa fa-home"></i>&nbsp;kpool</a>
 
         <ul>
-            <li class="{{? it.selected === 'getting_started' }}pure-menu-selected{{?}}">
-                <a class="hot-swapper" href="/getting_started">
-                    <i class="fa fa-rocket"></i>&nbsp;
-                    Getting Started
-                </a>
-            </li>
+
             <li class="{{? it.selected === 'stats' }}pure-menu-selected{{?}}">
                 <a class="hot-swapper" href="/stats">
                     <i class="fa fa-bar-chart-o"></i>&nbsp;
