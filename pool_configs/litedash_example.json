@@ -20,9 +20,9 @@
 
     "paymentProcessing": {
         "maxUnshieldAmount": 100.0,
-        "minConf": 10,
+        "minConf": 101,
         "enabled": true,
-        "paymentMode": "prop",
+        "paymentMode": "pplnt",
         "_comment_paymentMode":"prop, pplnt",
         "paymentInterval": 120,
         "minimumPayment": 0.1,
