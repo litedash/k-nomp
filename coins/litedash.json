@@ -2,8 +2,8 @@
     "name": "litedash",
     "symbol": "LDSH",
     "algorithm": "x11",
-    "peerMagic": "00000000",
-    "peerMagicTestnet": "00000000",
+    "peerMagic": "c0d124cf",
+    "peerMagicTestnet": "c2d1f5cf",
     "requireShielding": false,
     "txfee": 0.0001,
     "getMarketStats": false
